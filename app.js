@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 app.use('/' , Router)
 
-const mongoURL = "mongodb+srv://Ali:Ali098345@cluster0.ek7rpfd.mongodb.net/"
+const mongoURL = "mongodb+srv://Ali:ali123456@cluster0.ek7rpfd.mongodb.net/"
 mongoose.connect (mongoURL);
 mongoose.connection.on("connected", () => {
  console.log("mongo connected");
